@@ -1,0 +1,39 @@
+.container{
+    width: 110rem;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: table;
+    clear: both;
+    &:not(:last-child){
+        margin-bottom: 8rem;
+    }
+}
+
+div[class^='col']{
+    float: left;
+    padding: 0 15px;
+}
+.col-2{
+    width: calc(100% *2/12);
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: calc(100% *4/12);
+}
+.col-6{
+    width: 50%;
+}
+.col-8{
+    width: calc(100% *8/12);
+}
+.cal-9{
+    width: 75%;
+}
+.col-12{
+    width: 100%;
+}
